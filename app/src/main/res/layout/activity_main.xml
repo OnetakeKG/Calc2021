@@ -12,150 +12,132 @@
         android:columnCount="4">
 
 
-        <Button
+
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/key_clear"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/MyFirstStyle"
             android:layout_columnWeight="1"
-            android:layout_marginLeft="11sp"
+            android:layout_marginLeft="@dimen/dimension_1"
             android:text="@string/key_clear" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/key_degree"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/MyFirstStyle"
             android:layout_columnWeight="1"
             android:text="@string/key_degree" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/key_percent"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/MyFirstStyle"
             android:layout_columnWeight="1"
             android:text="@string/key_percent" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/key_div"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/MyFirstStyle"
             android:layout_columnWeight="1"
-            android:layout_marginRight="11sp"
+            android:layout_marginRight="@dimen/dimension_1"
             android:text="@string/key_div" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/key_1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/MyFirstStyle"
             android:layout_columnWeight="1"
-            android:layout_marginLeft="11sp"
+            android:layout_marginLeft="@dimen/dimension_1"
             android:text="@string/key_1" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/key_2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/MyFirstStyle"
             android:layout_columnWeight="1"
             android:text="@string/key_2" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/key_3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/MyFirstStyle"
             android:layout_columnWeight="1"
             android:text="@string/key_3" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/key_mul"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/MyFirstStyle"
             android:layout_columnWeight="1"
-            android:layout_marginRight="11sp"
+            android:layout_marginRight="@dimen/dimension_1"
             android:text="@string/key_mul" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/key_4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/MyFirstStyle"
             android:layout_columnWeight="1"
-            android:layout_marginLeft="11sp"
+            android:layout_marginLeft="@dimen/dimension_1"
             android:text="@string/key_4" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/key_5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/MyFirstStyle"
             android:layout_columnWeight="1"
             android:text="@string/key_5" />
 
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/key_6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/MyFirstStyle"
             android:layout_columnWeight="1"
             android:text="@string/key_6" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/key_sub"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/MyFirstStyle"
             android:layout_columnWeight="1"
-            android:layout_marginRight="11sp"
+            android:layout_marginRight="@dimen/dimension_1"
             android:text="@string/key_sub" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/key_7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/MyFirstStyle"
             android:layout_columnWeight="1"
-            android:layout_marginLeft="11sp"
+            android:layout_marginLeft="@dimen/dimension_1"
             android:text="@string/key_7" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/key_8"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/MyFirstStyle"
             android:layout_columnWeight="1"
             android:text="@string/key_8" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/key_9"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/MyFirstStyle"
             android:layout_columnWeight="1"
             android:text="@string/key_9" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/key_add"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/MyFirstStyle"
             android:layout_columnWeight="1"
-            android:layout_marginRight="11sp"
+            android:layout_marginRight="@dimen/dimension_1"
             android:text="@string/key_add" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/key_0"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/MyFirstStyle"
             android:layout_columnSpan="2"
             android:layout_columnWeight="1"
             android:layout_gravity="fill_horizontal"
-            android:layout_marginLeft="11sp"
+            android:layout_marginLeft="@dimen/dimension_1"
             android:text="@string/key_0" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/key_dot"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/MyFirstStyle"
             android:layout_columnWeight="1"
             android:text="@string/key_dot" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/key_equal"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/MyFirstStyle"
             android:layout_columnWeight="1"
-            android:layout_marginRight="11sp"
+            android:layout_marginRight="@dimen/dimension_1"
             android:text="@string/key_equal" />
 
     </GridLayout>
